@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.14">
+  <diagram name="Page-1" id="vORJTwFLor0kg7O2a5FA">
+    <mxGraphModel dx="1034" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5Smslv2zXNi3nr-ckXx_-2" value="Declarations&lt;div&gt;custAreaCode&lt;/div&gt;&lt;div&gt;custPhoneNumber&lt;/div&gt;&lt;div&gt;Base_Rate= 5.00&lt;/div&gt;&lt;div&gt;min_Rate= 0.08&lt;/div&gt;&lt;div&gt;Max_Rate= 0.07&lt;/div&gt;&lt;div&gt;Taxes= 0.15&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="50" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5Smslv2zXNi3nr-ckXx_-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Smslv2zXNi3nr-ckXx_-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Smslv2zXNi3nr-ckXx_-3" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Smslv2zXNi3nr-ckXx_-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Smslv2zXNi3nr-ckXx_-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Smslv2zXNi3nr-ckXx_-6" value="Housekeeping&lt;div&gt;output=PhoneProgram&lt;/div&gt;&lt;div&gt;input=customerAreaCode, customerPhoneNumber,TextMessages&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5Smslv2zXNi3nr-ckXx_-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Smslv2zXNi3nr-ckXx_-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Smslv2zXNi3nr-ckXx_-11" value="Return" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Smslv2zXNi3nr-ckXx_-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Smslv2zXNi3nr-ckXx_-14" target="5Smslv2zXNi3nr-ckXx_-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Smslv2zXNi3nr-ckXx_-14" value="Detail" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="570" width="205" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5Smslv2zXNi3nr-ckXx_-15" value="beforeTaxCost=Base_Rate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="5Smslv2zXNi3nr-ckXx_-14">
+          <mxGeometry y="30" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Smslv2zXNi3nr-ckXx_-16" value="ifNumTextMsgs&amp;gt;min_MsgsThen&lt;div&gt;ifNumTextMsgs&amp;gt;Max_MsgsThen&lt;/div&gt;&lt;div&gt;beforeTaxCost=beforeTaxCost+&lt;/div&gt;&lt;div&gt;(Max_Msgs-min_Msgs) *min_Rate+&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="5Smslv2zXNi3nr-ckXx_-14">
+          <mxGeometry y="60" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Smslv2zXNi3nr-ckXx_-18" value="Else" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="740" width="205" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5Smslv2zXNi3nr-ckXx_-19" value="beforeTaxCost=beforeTaxCost+&lt;div&gt;numTextMsgs-min_Msgs) =min_Rate&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="5Smslv2zXNi3nr-ckXx_-18">
+          <mxGeometry y="30" width="205" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
