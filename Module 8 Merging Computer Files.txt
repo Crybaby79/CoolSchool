@@ -1,0 +1,32 @@
+Open ("geraldineFile")
+Open ("gerardFile")
+Open ("mergedFile") 
+
+
+Read ("geraldineRecord") from "geraldineFile")
+Read ("gerardRecord") from "(gerardFile")
+
+WHILE NOT end of both files
+
+     IF "geraldineRecord.customerNumber < gerardRecord.customerNumber" THEN
+         Write "geraldineRecord" to mergedFile
+         Read next "geraldineRecord from geraldineFile"
+         IF end of "gearldineFile" THEN
+             WHILE NOT end of gerardFile 
+                 Write "gerardRecord" to mergedFile
+                 Read next "gerardRecord"
+             END WHILE
+         END IF
+     ELSE
+          Write "gerardRecord" to mergedFile
+          Read next "gerardRecord from gerardFile"
+          IF end of "gerardFile" THEN
+              WHILE NOT end of "gearldineFile"
+                  Write "geraldineRecord" to mergedFile
+                  Read next "gearldineRecord"
+                END WHILE
+            END IF
+        END IF
+    END WHILE
+
+    Close all files

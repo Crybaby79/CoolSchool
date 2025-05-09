@@ -1,0 +1,82 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Page-1" id="d3_VXfZWmln4YcMlmzzR">
+    <mxGraphModel dx="1028" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3t9qqs-d8vy9WI2QEaBn-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-1" value="Declarations&lt;div&gt;InputFile geraldineFile&lt;/div&gt;&lt;div&gt;InputFile gerardFile&lt;/div&gt;&lt;div&gt;OutputFile mergedFile&lt;/div&gt;&lt;div&gt;num geraldineNum&lt;/div&gt;&lt;div&gt;num geraldineArea&lt;/div&gt;&lt;div&gt;num gerardNum&lt;/div&gt;&lt;div&gt;num gerardArea&lt;/div&gt;&lt;div&gt;num END_NUM = 999&lt;/div&gt;&lt;div&gt;string geraldineLastName&lt;/div&gt;&lt;div&gt;string geraldineAddress&lt;/div&gt;&lt;div&gt;string gerardLastName&amp;nbsp;&lt;/div&gt;&lt;div&gt;string geraardAddress&lt;/div&gt;&lt;div&gt;string areBothAtEnd = &quot;N&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="270" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3t9qqs-d8vy9WI2QEaBn-2" target="3t9qqs-d8vy9WI2QEaBn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-4" value="Declarations&lt;div&gt;InputFile geraldineFile&lt;/div&gt;&lt;div&gt;InputFile gerardFile&lt;/div&gt;&lt;div&gt;OutputFile mergedFile&lt;/div&gt;&lt;div&gt;num geraldineNum&lt;/div&gt;&lt;div&gt;num geraldineArea&lt;/div&gt;&lt;div&gt;num gerardNum&lt;/div&gt;&lt;div&gt;num gerardArea&lt;/div&gt;&lt;div&gt;num END_NUM = 999&lt;/div&gt;&lt;div&gt;string geraldineLastName&lt;/div&gt;&lt;div&gt;string geraldineAddress&lt;/div&gt;&lt;div&gt;string gerardLastName&amp;nbsp;&lt;/div&gt;&lt;div&gt;string geraardAddress&lt;/div&gt;&lt;div&gt;string areBothAtEnd = &quot;N&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="50" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3t9qqs-d8vy9WI2QEaBn-11" target="3t9qqs-d8vy9WI2QEaBn-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-11" value="getReady()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="610" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-15" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3t9qqs-d8vy9WI2QEaBn-12" target="3t9qqs-d8vy9WI2QEaBn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-20" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3t9qqs-d8vy9WI2QEaBn-12" target="3t9qqs-d8vy9WI2QEaBn-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-12" value="areBothAtEnd&amp;lt;&amp;gt; Y?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="710" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3t9qqs-d8vy9WI2QEaBn-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-14" value="finishUp()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-18" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1020" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3t9qqs-d8vy9WI2QEaBn-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-19" value="mergeRecords" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="750" as="sourcePoint" />
+            <mxPoint x="620" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="670" as="sourcePoint" />
+            <mxPoint x="520" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3t9qqs-d8vy9WI2QEaBn-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="670" as="sourcePoint" />
+            <mxPoint x="250" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="415" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
